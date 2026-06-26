@@ -1,0 +1,13 @@
+{
+  "name": "kospi-ma-disparity-strategy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "KOSPI 50-day moving average disparity tracker with editable strategies.",
+  "scripts": {
+    "start": "node server.js",
+    "update:data": "node scripts/update-kospi-data.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
